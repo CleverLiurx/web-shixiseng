@@ -7,11 +7,18 @@ module.exports = {
         [
             "meta",
             {
-              name: "keywords",
-              content:
-                "web实习僧,web前端面试,vue面试题,react面试题,js面试题,大厂面试题,阿里面试题,力扣,算法面试题,leetcode题",
+                name: "keywords",
+                content:
+                    "web实习僧,web前端面试,vue面试题,react面试题,js面试题,大厂面试题,阿里面试题,力扣,算法面试题,leetcode题",
             },
-          ],
+        ],
+        [
+            "meta",
+            {
+                name: "baidu-site-verification",
+                content: "baidu-site-verification",
+            }
+        ]
     ],
     themeConfig: {
         logo: "/logo.png",

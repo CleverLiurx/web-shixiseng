@@ -1900,13 +1900,13 @@ console.log(counterOne.count);
 
 `counterOne` 是类 `Counter` 的一个实例。类 Counter 包含一个`count` 属性在它的构造函数里， 和一个 `increment` 方法。首先，我们通过 `counterOne.increment()` 调用方法 `increment` 两次。现在, `counterOne.count` 为 `2`.
 
-<img src="https://i.imgur.com/KxLlTm9.png" width="400">
+<img src="https://camo.githubusercontent.com/bb0df4f067052cc515e912757fa720e94458641409f133b1cbfa110d5dfa67fb/68747470733a2f2f692e696d6775722e636f6d2f4b784c6c546d392e706e67" width="400">
 
 然后，我们创建一个新的变量 `counterTwo` 并将 `counterOne` 的引用地址赋值给它。因为对象受引用地址的影响，我们刚刚创建了一个新的对象，其引用地址和 `counterOne` 的等价。因此它们指向同一块内存地址，任何对其的副作用都会影响 `counterTwo`。现在 `counterTwo.count` 为 `2`。
 
 我们调用 `counterTwo.increment()` 将 `count` 的值设为 `3`。然后，我们打印 `counterOne` 里的count，结果为 `3`。
 
-<img src="https://i.imgur.com/BNBHXmc.png" width="400">
+<img src="https://camo.githubusercontent.com/140586308ac5cea9bea9502ccc63d984f082f21631e12ff3f8b6b36da560b100/68747470733a2f2f692e696d6775722e636f6d2f424e4248586d632e706e67" width="400">
 
 </p>
 </details>

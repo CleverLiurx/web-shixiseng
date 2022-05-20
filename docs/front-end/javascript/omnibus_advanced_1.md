@@ -196,7 +196,7 @@ console.log(d.greeting)
 
 首先，变量 `c` 的值是一个对象。接下来，我们给 `d` 分配了一个和 `c` 对象相同的引用。
 
-<img src="https://i.imgur.com/ko5k0fs.png" width="200">
+<img src="https://camo.githubusercontent.com/7fa22323daec0bc9742948c600eb9d951d28488132dcfb47e181d8b0a92b5f6e/68747470733a2f2f692e696d6775722e636f6d2f6b6f356b3066732e706e67" width="200">
 
 因此当我们改变其中一个对象时，其实是改变了所有的对象。
 
@@ -417,7 +417,7 @@ console.log(sarah)
 
 在**捕获**（capturing）阶段中，事件从祖先元素向下传播到目标元素。当事件达到**目标**（target）元素后，**冒泡**（bubbling）才开始。
 
-<img src="https://i.imgur.com/N18oRgd.png" width="200">
+<img src="https://camo.githubusercontent.com/5fd2d347d044150e4ae35091622f0628f0eb7893966f03c8955ca271f3153e47/68747470733a2f2f692e696d6775722e636f6d2f4e31386f5267642e706e67" width="200">
 
 </p>
 </details>
@@ -895,23 +895,23 @@ baz()
 
 将 _callback_ 推送到 WebAPI 后，`setTimeout` 函数本身(但不是回调！)将从栈中弹出。
 
-<img src="https://i.imgur.com/X5wsHOg.png" width="200">
+<img src="https://camo.githubusercontent.com/19b192c43fa49214509691fe080954ea7a9ac4623247a7eb7f1e4133a3c5565c/68747470733a2f2f692e696d6775722e636f6d2f58357773484f672e706e67" width="200">
 
 现在，`foo` 被调用，打印 `"First"`。
 
-<img src="https://i.imgur.com/Pvc0dGq.png" width="200">
+<img src="https://camo.githubusercontent.com/6e4892fdaed8e4e78e7beeef404cfaaf0514b0af048685ab02bf99926f6a2d02/68747470733a2f2f692e696d6775722e636f6d2f507663306447712e706e67" width="200">
 
 `foo` 从栈中弹出，`baz` 被调用. 打印 `"Third"`。
 
-<img src="https://i.imgur.com/WhA2bCP.png" width="200">
+<img src="https://camo.githubusercontent.com/0d2c27e9f298f02d6ca534f7cc0dd0615b0e2d9b79a7994620c92d72e74276c8/68747470733a2f2f692e696d6775722e636f6d2f576841326243502e706e67" width="200">
 
 WebAPI 不能随时向栈内添加内容。相反，它将回调函数推到名为 _queue_ 的地方。
 
-<img src="https://i.imgur.com/NSnDZmU.png" width="200">
+<img src="https://camo.githubusercontent.com/205b6b712f0a596fff074070e1aecf9ef339044501810fb64c55097df9e5b60a/68747470733a2f2f692e696d6775722e636f6d2f4e536e445a6d552e706e67" width="200">
 
 这就是事件循环开始工作的地方。一个**事件循环**查看栈和任务队列。如果栈是空的，它接受队列上的第一个元素并将其推入栈。
 
-<img src="https://i.imgur.com/uyiScAI.png" width="200">
+<img src="https://camo.githubusercontent.com/adea821805ac6e841b529c5e9a0ed35e7ad7510cfbb27c3ba25145f343fc1571/68747470733a2f2f692e696d6775722e636f6d2f757969536341492e706e67" width="200">
 
 `bar` 被调用，打印 `"Second"`，然后它被栈弹出。
 
@@ -1381,15 +1381,15 @@ console.log(members);
 
 首先我们声明了一个拥有`name`属性的对象 `person`。
 
-<img src="https://i.imgur.com/TML1MbS.png" width="200">
+<img src="https://camo.githubusercontent.com/6f38c1e88aba48a5e18362d81794a95ab64774d227682448a78582a8aa3ae229/68747470733a2f2f692e696d6775722e636f6d2f544d4c314d62532e706e67" width="200">
 
 然后我们又声明了一个变量`members`. 将首个元素赋值为变量`person`。 当设置两个对象彼此相等时，它们会通过 _引用_ 进行交互。但是当你将引用从一个变量分配至另一个变量时，其实只是执行了一个 _复制_ 操作。（注意一点，他们的引用 _并不相同_!）
 
-<img src="https://i.imgur.com/FSG5K3F.png" width="300">
+<img src="https://camo.githubusercontent.com/a2aff47ba86b7282bd649d2c63f9edbf8b68e6d3d49330afd50b969d219df54f/68747470733a2f2f692e696d6775722e636f6d2f465347354b33462e706e67" width="300">
 
 接下来我们让`person`等于`null`。
 
-<img src="https://i.imgur.com/sYjcsMT.png" width="300">
+<img src="https://camo.githubusercontent.com/fc32426b0075e5ba126cef4178e8f15bf6aa5e116982ba75b4d55b659958f703/68747470733a2f2f692e696d6775722e636f6d2f73596a63734d542e706e67" width="300">
 
 我们没有修改数组第一个元素的值，而只是修改了变量`person`的值,因为元素（复制而来）的引用与`person`不同。`members`的第一个元素仍然保持着对原始对象的引用。当我们输出`members`数组时，第一个元素会将引用的对象打印出来。
 
@@ -1809,7 +1809,7 @@ console.log(y);
 [a, b] = [1, 2];
 ```
 
-<img src="https://i.imgur.com/ADFpVop.png" width="200">
+<img src="https://camo.githubusercontent.com/dce0496a960fb9fdb4db151f7b0046075c820a05aad6ca111c9286f5bda6201c/68747470733a2f2f692e696d6775722e636f6d2f41444670566f702e706e67" width="200">
 
 `a`的值现在是`1`，`b`的值现在是`2`.而在题目中，我们是这么做的:
 
@@ -1817,7 +1817,7 @@ console.log(y);
 [y] = [1, 2, 3, 4, 5];
 ```
 
-<img src="https://i.imgur.com/NzGkMNk.png" width="200">
+<img src="https://camo.githubusercontent.com/901b361611a602f20ffce12f21c3a266ff74c8f1ef7fe64fb9b7e80bedc91562/68747470733a2f2f692e696d6775722e636f6d2f4e7a476b4d4e6b2e706e67" width="200">
 
 也就是说，`y`等于数组的第一个值就是数字`1`.我们输出`y`， 返回`1`.
 
