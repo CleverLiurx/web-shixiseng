@@ -2,6 +2,7 @@ module.exports = {
     title: 'WEB实习僧',
     description: '公众号@WEB实习僧 面试学习网，提供WEB前端面试题、算法面试题、计算机网络面试题等全方面初中级前端面试问题！',
     base: '/',
+    dest: './dist/',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
         [
@@ -16,7 +17,7 @@ module.exports = {
             "meta",
             {
                 name: "baidu-site-verification",
-                content: "baidu-site-verification",
+                content: "code-p1vufGYUi1",
             }
         ]
     ],
