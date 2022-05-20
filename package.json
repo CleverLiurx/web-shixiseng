@@ -1,0 +1,27 @@
+{
+  "name": "web-shixiseng",
+  "version": "0.30.0",
+  "description": "公众号@WEB实习僧 面试学习网，提供WEB前端面试题、算法面试题、计算机网络面试题等全方面初中级前端面试问题！",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CleverLiurx/web-shixiseng.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CleverLiurx/web-shixiseng/issues"
+  },
+  "homepage": "https://github.com/CleverLiurx/web-shixiseng#README",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
