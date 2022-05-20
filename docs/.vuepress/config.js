@@ -19,6 +19,7 @@ module.exports = {
         lastUpdated: '最后更新',
         repo: "CleverLiurx/web-shixiseng",
         docsBranch: 'main',
+        docsDir: "docs",
         editLinks: true,
         editLinkText: "发现问题？帮我们修改此页面～",
         nav: [
