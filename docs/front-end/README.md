@@ -18,6 +18,8 @@
 ### JavaScript篇
 
 - [说说JavaScript中的数据类型？存储上的差别？](./javascript/date_type.md)
+- [JavaScript综合性问题(上)](./javascript/omnibus_advanced_1.md)
+- [JavaScript综合性问题(下)](./javascript/omnibus_advanced_2.md)
 
 
 ### Vue2篇

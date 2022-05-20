@@ -48,6 +48,8 @@ module.exports = {
                     title: 'JavaScript',
                     children: [
                         "/front-end/javascript/date_type",
+                        "/front-end/javascript/omnibus_advanced_1",
+                        "/front-end/javascript/omnibus_advanced_2",
                     ]
                 },
                 {
