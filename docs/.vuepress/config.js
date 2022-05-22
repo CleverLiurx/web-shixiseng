@@ -94,7 +94,7 @@ module.exports = {
             '/data-structure-algorithm/': [
                 '/data-structure-algorithm/',
                 {
-                    title: "基础概念",
+                    title: "数据结构与算法基础",
                     children: [
                         "/data-structure-algorithm/basic/algorithm",
                         "/data-structure-algorithm/basic/time_space",
@@ -111,29 +111,19 @@ module.exports = {
                         "/data-structure-algorithm/basic/insertion_sort",
                         "/data-structure-algorithm/basic/merge_sort",
                         "/data-structure-algorithm/basic/quick_sort",
+                        "/data-structure-algorithm/basic/search",
+                        "/data-structure-algorithm/basic/sequential_search",
                         "/data-structure-algorithm/basic/binary_search",
                         "/data-structure-algorithm/basic/design1",
                         "/data-structure-algorithm/basic/design2",
                     ]
                 },
                 {
-                    title: '排序',
-                    children: [
-                        "/data-structure-algorithm/sort/bubble_sort",
-                        "/data-structure-algorithm/sort/quick_sort",
-                        "/data-structure-algorithm/sort/insertion_sort",
-                        "/data-structure-algorithm/sort/selection_sort",
-                        "/data-structure-algorithm/sort/merge_sort",
-                        "/data-structure-algorithm/sort/heap_sort",
-                    ]
-                },
-                {
-                    title: '查找',
-                    children: []
-                },
-                {
                     title: 'DFS和BFS',
-                    children: []
+                    children: [
+                        "/data-structure-algorithm/dsf_bsf/binary-tree-inorder-traversal",
+                        "/data-structure-algorithm/dsf_bsf/binary-tree-level-order-traversal",
+                    ]
                 },
                 {
                     title: '递归和循环',
@@ -164,10 +154,12 @@ module.exports = {
                 '/network/',
                 '/network/get_post',
                 '/network/header',
+                '/network/option',
             ],
             '/update_record/': [
                 '/update_record/',
-                '/update_record/2022-05-20'
+                '/update_record/2022-05-20',
+                '/update_record/2022-05-22'
             ]
         }
     }

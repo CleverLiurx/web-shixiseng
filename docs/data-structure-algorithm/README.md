@@ -4,6 +4,8 @@
 }
 ---
 
+> 刷算法题`一定要分类刷！一定要分类刷！一定要分类刷！`
+
 ### 基础概念
 
 - [说说你对算法的理解？应用场景？](./basic/algorithm.md)
@@ -21,16 +23,13 @@
 - [说说你对插入排序的理解？如何实现？应用场景？](./basic/insertion_sort.md)
 - [说说你对归并排序的理解？如何实现？应用场景？](./basic/merge_sort.md)
 - [说说你对快速排序的理解？如何实现？应用场景？](./basic/quick_sort.md)
+- [说说常见的查找算法有哪些？区别？](./basic/search.md)
+- [说说你对顺序查找的理解？如何实现？](./basic/sequential_search.md)
 - [说说你对二分查找的理解？如何实现？应用场景？](./basic/binary_search.md)
 - [说说你对分而治之、动态规划的理解？区别？](./basic/design1.md)
 - [说说你对贪心算法、回溯算法的理解？应用场景？](./basic/design2.md)
 
+### DFS和BSF
 
-### 排序
-
-- [冒泡排序](./sort/bubble_sort.md)
-- [快速排序](./sort/quick_sort.md)
-- [插入排序](./sort/insertion_sort.md)
-- [选择排序](./sort/selection_sort.md)
-- [归并排序](./sort/merge_sort.md)
-- [堆排序](./sort/heap_sort.md)
+- [二叉树的中序遍历](./dsf_bsf/binary-tree-inorder-traversal.md)
+- [二叉树的层序遍历](./dsf_bsf/binary-tree-level-order-traversal.md)

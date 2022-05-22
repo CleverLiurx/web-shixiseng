@@ -97,7 +97,7 @@
 - 重复步骤3直到某一指针到达序列尾
 - 将另一序列剩下的所有元素直接复制到合并序列尾
 
-![](https://pic3.zhimg.com/v2-cdda3f11c6efbc01577f5c29a9066772_b.jpg)
+![](https://cdn.bayuechuqi.com/blog%2F%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F.gif)
 
 
 
@@ -113,7 +113,7 @@
 - 重新排序数列，所有比基准值小的元素摆放在基准前面，所有比基准值大的元素摆在基准后面（相同的数可以到任何一边）。在这个分区结束之后，该基准就处于数列的中间位置。这个称为分区（partition）操作
 - 递归地（recursively）把小于基准值元素的子数列和大于基准值元素的子数列排序
 
-![](https://pic1.zhimg.com/v2-c411339b79f92499dcb7b5f304c826f4_b.jpg)
+![](https://cdn.bayuechuqi.com/blog%2F%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F.gif)
 
 
 
