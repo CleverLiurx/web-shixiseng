@@ -152,14 +152,61 @@ module.exports = {
             ],
             '/network/': [
                 '/network/',
-                '/network/get_post',
-                '/network/header',
-                '/network/option',
+                {
+                    title: '网络模型',
+                    children: [
+                        '/network/network_model/osi',
+                        '/network/network_model/tcp_ip',
+                        '/network/network_model/use_tcp_ip_not_osi',
+                        '/network/network_model/cs_p2p',
+                    ]
+                },
+                {
+                    title: 'DNS',
+                    children: [
+                        '/network/dns/what_is_dns',
+                        '/network/dns/dns_resolution',
+                    ]
+                },
+                {
+                    title: 'HTTP',
+                    children: [
+                        '/network/http/methods',
+                        '/network/http/get_post',
+                        '/network/http/header',
+                        '/network/http/http1.1',
+                        '/network/http/http2.0',
+                        '/network/http/request_msg',
+                        '/network/http/response_msg',
+                        '/network/http/load_multiple_images',
+                        '/network/http/status_code',
+                        '/network/http/keep_alive',
+                        '/network/http/url_to_html',
+                    ]
+                },
+                {
+                    title: 'HTTPS',
+                    children: [
+                        '/network/https/what_is_https',
+                        '/network/https/http_https',
+                        '/network/https/advantage_disadvantage',
+                        '/network/https/handshake',
+                    ]
+                },
+                {
+                    title: 'TCP/UDP',
+                    children: []
+                },
+                {
+                    title: '其他',
+                    children: []
+                },
             ],
             '/update_record/': [
                 '/update_record/',
                 '/update_record/2022-05-20',
-                '/update_record/2022-05-22'
+                '/update_record/2022-05-22',
+                '/update_record/2022-05-23',
             ]
         }
     }
