@@ -119,15 +119,24 @@ module.exports = {
                     ]
                 },
                 {
-                    title: 'DFS和BFS',
+                    title: '深度优先搜索',
                     children: [
-                        "/data-structure-algorithm/dsf_bsf/binary-tree-inorder-traversal",
-                        "/data-structure-algorithm/dsf_bsf/binary-tree-level-order-traversal",
+                        "/data-structure-algorithm/dsf/binary-tree-preorder-traversal",
+                        "/data-structure-algorithm/dsf/binary-tree-inorder-traversal",
+                        "/data-structure-algorithm/dsf/binary-tree-postorder-traversal",
                     ]
                 },
                 {
-                    title: '递归和循环',
-                    children: []
+                    title: '广度优先搜索',
+                    children: [
+                        "/data-structure-algorithm/bsf/binary-tree-level-order-traversal",
+                    ]
+                },
+                {
+                    title: '双指针',
+                    children: [
+                        "/data-structure-algorithm/double_pointer/inverted_string",
+                    ]
                 },
                 {
                     title: '分治',
@@ -207,6 +216,7 @@ module.exports = {
                 '/update_record/2022-05-20',
                 '/update_record/2022-05-22',
                 '/update_record/2022-05-23',
+                '/update_record/2022-05-24',
             ]
         }
     }

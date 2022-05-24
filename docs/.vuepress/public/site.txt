@@ -30,8 +30,10 @@ https://www.bayuechuqi.com/data-structure-algorithm/basic/sequential_search.html
 https://www.bayuechuqi.com/data-structure-algorithm/basic/binary_search.html
 https://www.bayuechuqi.com/data-structure-algorithm/basic/design1.html
 https://www.bayuechuqi.com/data-structure-algorithm/basic/design2.html
-https://www.bayuechuqi.com/data-structure-algorithm/dsf_bsf/binary-tree-inorder-traversal.html
-https://www.bayuechuqi.com/data-structure-algorithm/dsf_bsf/binary-tree-level-order-traversal.html
+https://www.bayuechuqi.com/data-structure-algorithm/dsf/binary-tree-preorder-traversal.html
+https://www.bayuechuqi.com/data-structure-algorithm/dsf/binary-tree-inorder-traversal.html
+https://www.bayuechuqi.com/data-structure-algorithm/dsf/binary-tree-postorder-traversal.html
+https://www.bayuechuqi.com/data-structure-algorithm/bsf/binary-tree-level-order-traversal.html
 https://www.bayuechuqi.com/network/http/get_post.html
 https://www.bayuechuqi.com/network/http/header.html
 https://www.bayuechuqi.com/network/http/methods.html

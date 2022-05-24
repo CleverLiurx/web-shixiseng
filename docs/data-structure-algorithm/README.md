@@ -29,7 +29,16 @@
 - [说说你对分而治之、动态规划的理解？区别？](./basic/design1.md)
 - [说说你对贪心算法、回溯算法的理解？应用场景？](./basic/design2.md)
 
-### DFS和BSF
+### 深度优先搜索
 
-- [二叉树的中序遍历](./dsf_bsf/binary-tree-inorder-traversal.md)
-- [二叉树的层序遍历](./dsf_bsf/binary-tree-level-order-traversal.md)
+- [二叉树的前序遍历](./dsf/binary-tree-preorder-traversal.md)
+- [二叉树的中序遍历](./dsf/binary-tree-inorder-traversal.md)
+- [二叉树的后续遍历](./dsf/binary-tree-postorder-traversal.md)
+
+### 广度优先搜索
+
+- [二叉树的层序遍历](./bsf/binary-tree-level-order-traversal.md)
+
+### 递归和遍历
+
+- [反转字符串](./recursion_circulation/inverted_string.md)
