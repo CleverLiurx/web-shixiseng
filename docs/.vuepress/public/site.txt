@@ -55,3 +55,13 @@ https://www.bayuechuqi.com/network/https/what_is_https.html
 https://www.bayuechuqi.com/network/https/http_https.html
 https://www.bayuechuqi.com/network/https/advantage_disadvantage.html
 https://www.bayuechuqi.com/network/https/handshake.html
+https://www.bayuechuqi.com/network/tcp_udp/difference.html
+https://www.bayuechuqi.com/network/tcp_udp/usage_scenario.html
+https://www.bayuechuqi.com/network/tcp_udp/shakehands_wave.html
+https://www.bayuechuqi.com/network/tcp_udp/retransmission.html
+https://www.bayuechuqi.com/network/tcp_udp/reliable.html
+https://www.bayuechuqi.com/network/tcp_udp/flow_control.html
+https://www.bayuechuqi.com/network/tcp_udp/congestion_control.html
+https://www.bayuechuqi.com/network/others/dhcp.html
+https://www.bayuechuqi.com/network/http/cache.html
+https://www.bayuechuqi.com/network/http/channel_multiplexing.html

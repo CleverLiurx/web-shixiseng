@@ -190,7 +190,9 @@ module.exports = {
                         '/network/http/load_multiple_images',
                         '/network/http/status_code',
                         '/network/http/keep_alive',
+                        '/network/http/channel_multiplexing',
                         '/network/http/url_to_html',
+                        '/network/http/cache',
                     ]
                 },
                 {
@@ -204,11 +206,21 @@ module.exports = {
                 },
                 {
                     title: 'TCP/UDP',
-                    children: []
+                    children: [
+                        '/network/tcp_udp/difference',
+                        '/network/tcp_udp/usage_scenario',
+                        '/network/tcp_udp/shakehands_wave',
+                        '/network/tcp_udp/retransmission',
+                        '/network/tcp_udp/reliable',
+                        '/network/tcp_udp/flow_control',
+                        '/network/tcp_udp/congestion_control',
+                    ]
                 },
                 {
                     title: '其他',
-                    children: []
+                    children: [
+                        '/network/others/dhcp',
+                    ]
                 },
             ],
             '/update_record/': [
@@ -217,6 +229,7 @@ module.exports = {
                 '/update_record/2022-05-22',
                 '/update_record/2022-05-23',
                 '/update_record/2022-05-24',
+                '/update_record/2022-05-26',
             ]
         }
     }
