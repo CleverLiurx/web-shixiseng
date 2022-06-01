@@ -88,6 +88,11 @@ module.exports = {
                     title: '设计模式',
                     children: [
                         "/front-end/design/design",
+                        "/front-end/design/singleton_pattern",
+                        "/front-end/design/factory_pattern",
+                        "/front-end/design/strategy_pattern",
+                        "/front-end/design/proxy_pattern",
+                        "/front-end/design/observer_pattern",
                     ]
                 },
             ],
@@ -220,6 +225,8 @@ module.exports = {
                     title: '其他',
                     children: [
                         '/network/others/dhcp',
+                        '/network/others/websocket',
+                        '/network/others/cdn',
                     ]
                 },
             ],
@@ -230,6 +237,7 @@ module.exports = {
                 '/update_record/2022-05-23',
                 '/update_record/2022-05-24',
                 '/update_record/2022-05-26',
+                '/update_record/2022-06-01',
             ]
         }
     }

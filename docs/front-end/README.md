@@ -34,7 +34,7 @@
 
 ### React篇
 
-- [说说对React的理解？有哪些特性？?](./react/react.md)
+- [说说对React的理解？有哪些特性？](./react/react.md)
 
 
 ### 浏览器篇
@@ -44,4 +44,9 @@
 
 ### 设计模式篇
 
-- [说说对设计模式的理解？常见的设计模式有哪些？?](./design/design.md)
+- [说说对设计模式的理解？常见的设计模式有哪些？](./design/design.md)
+- [说说你对工厂模式的理解？应用场景？](./design/factory_pattern.md)
+- [说说你对单例模式的理解？如何实现？](./design/singleton_pattern.md)
+- [说说你对策略模式的理解？应用场景？](./design/strategy_pattern.md)
+- [说说你对代理模式的理解？应用场景？](./design/proxy_pattern.md)
+- [说说你对发布订阅、观察者模式的理解？区别？](./design/observer_pattern.md)

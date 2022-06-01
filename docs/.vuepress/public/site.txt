@@ -65,3 +65,10 @@ https://www.bayuechuqi.com/network/tcp_udp/congestion_control.html
 https://www.bayuechuqi.com/network/others/dhcp.html
 https://www.bayuechuqi.com/network/http/cache.html
 https://www.bayuechuqi.com/network/http/channel_multiplexing.html
+https://www.bayuechuqi.com/front-end/design/singleton_pattern.html
+https://www.bayuechuqi.com/front-end/design/factory_pattern.html
+https://www.bayuechuqi.com/front-end/design/strategy_pattern.html
+https://www.bayuechuqi.com/front-end/design/proxy_pattern.html
+https://www.bayuechuqi.com/front-end/design/observer_pattern.html
+https://www.bayuechuqi.com/network/others/websocket.html
+https://www.bayuechuqi.com/network/others/cdn.html

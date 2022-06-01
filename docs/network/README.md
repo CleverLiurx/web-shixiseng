@@ -57,3 +57,5 @@
 ### 其他
 
 - [DHCP协议是什么，有何作用？](./others/dhcp.md)
+- [WebSocket是什么，有哪些应用场景？](./others/websocket.md)
+- [CDN是什么，实现原理是什么？](./others/cdn.md)
