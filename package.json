@@ -23,5 +23,8 @@
   "homepage": "https://github.com/CleverLiurx/web-shixiseng#README",
   "devDependencies": {
     "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "l-watermark": "^2.0.2"
   }
 }

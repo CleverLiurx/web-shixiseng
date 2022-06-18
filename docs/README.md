@@ -11,4 +11,4 @@ features:
   details: 常见数据结构的分析与高频算法解题的JavaScript实现。
 - title: 计算机网络
   details: 涵盖面试常考的三次握手、四次挥手、多路复用等题目。
-footer: © WEB实习僧 - BaYueChuQi.com | 冀ICP备19016004号
+---
